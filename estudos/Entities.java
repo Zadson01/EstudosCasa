@@ -38,12 +38,5 @@ public class Entities {
         }
     }
     
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Entities atividade = new Entities();
-        atividade.quantidade(scanner); 
-        scanner.close();
-    }
 }
-
 
